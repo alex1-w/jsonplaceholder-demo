@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="scripts/http.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-wrapper">
+
+                <div class="header-wrapper__logo">
+                    <p>LOGO</p>
+                </div>
+
+                <nav class="header-wrapper__navigation">
+                    <div class="header-wrapper__item">
+                        <p><a href="create-product.html">создать </a></p>
+                    </div>
+
+                    <div class="header-wrapper__item">
+                        <p><a href="index.html">главная </a></p>
+                    </div>
+                </nav>
+
+                <div class="header-wrapper__inp">
+                    <input type="text" placeholder="Search item">
+                </div>
+
+                <div class="header-wrapper__item">
+
+                    <div>effs</div>
+                    <div>ffe</div>
+                    <div>fsfe</div>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <div class="edit-card">
+
+
+        <div class="edit-card__create-card">
+            <form action="" class="edit-card__create-card__wrapper">
+
+                <div class="edit-card__create-card_price">
+                    <p>Price</p>
+                    <input type="number" placeholder="price" class="form__item" />
+                </div>
+
+                <div class="edit-card__create-card_discount">
+                    <p>Discount</p>
+                    <input type=" number" placeholder="discount" class="form__item" />
+                </div>
+
+                <div class="edit-card__create-card_bestseller">
+                    <p>Bestseller check</p>
+                    <input type="checkbox" placeholder="bestseller" class="form__item" />
+                </div>
+
+                <div class="edit-card__create-card_file">
+                    <p>Image</p>
+                    <input type="file" class="form__item" id="" />
+                </div>
+
+                <div class="edit-card__create-card_categotyId">
+
+                    <p>Category ID</p>
+                    <select name="" id="" class="form__item">
+                        <option value="0">не выбрано</option>
+                        <option value="1">маме</option>
+                        <option value="2">девушке</option>
+                        <option value="3">любовнице</option>
+                    </select>
+
+                </div>
+                <button type="submit" id="changeBtn">Сохранить</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="load-image"></div>
+
+    <div class="container-block">
+        <div class=""></div>
+    </div>
+
+
+    <script src="scripts/create-product.js"></script>
+</body>
+
+</html>

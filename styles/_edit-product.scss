@@ -1,0 +1,126 @@
+// .edit-card {
+//     background-color: #8cf3bc83;
+//     border: 8px solid rgba(155, 252, 223, 0.733);
+//     border-radius: 10px;
+//     display: flex;
+//     flex-direction: column;
+
+
+//     &__card {
+//         height: 60vh;
+//         // border: 1px solid red;
+//         margin: 15px;
+//     }
+
+//     &__img-block {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+
+//         & img {
+//             border-radius: 7px;
+//             height: 60vh;
+//         }
+//     }
+
+//     &__create-card {
+//         max-width: 95%;
+//         // border: 1px solid red;
+//         margin: 0 auto;
+//         padding: 12px;
+//         background-color: rgb(17, 16, 16);
+//         display: flex;
+
+//         &__wrapper {
+//             & input {
+//                 border: #e6e6e6 2.5px solid;
+//                 color: #e6e6e6;
+//                 background-color: inherit;
+//                 // padding-left: 15px;
+//                 padding: 5px;
+//             }
+
+//             & button {
+//                 border: #e6e6e6 2.5px solid;
+//                 color: #e6e6e6;
+//                 background-color: inherit;
+//                 padding: 5px;
+//             }
+
+//             & input:nth-child(3n) {
+//                 max-width: 70px;
+//             }
+//         }
+//     }
+
+// }
+
+
+.edit-card {
+    background-color: #8cf3bc83;
+    border: 8px solid rgba(155, 252, 223, 0.733);
+    border-radius: 10px;
+    display: flex;
+
+    &__card {
+        height: 60vh;
+        // border: 1px solid red;
+        margin: 15px;
+    }
+
+    &__img-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & img {
+            border-radius: 7px;
+            height: 60vh;
+        }
+    }
+
+    &__create-card {
+        max-width: 95%;
+        // border: 1px solid red;
+        margin: 0 auto;
+        padding: 12px;
+        background-color: rgb(17, 16, 16);
+        // display: flex;
+
+        & p {
+            color: white;
+            font-family: "Open Sans", sans-serif;
+            font-size: 18px;
+        }
+
+        // &_price {}
+        // &_discount {}
+        // &_bestseller {}
+        // &_file {}
+        &__wrapper {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            & input {
+                border: #e6e6e6 2.5px solid;
+                color: #e6e6e6;
+                background-color: inherit;
+                // padding-left: 15px;
+                padding: 5px;
+            }
+
+            & button {
+                border: #e6e6e6 2.5px solid;
+                color: #e6e6e6;
+                background-color: inherit;
+                padding: 5px;
+            }
+
+            & input:nth-child(3n) {
+                max-width: 70px;
+            }
+        }
+    }
+}

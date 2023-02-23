@@ -1,10 +1,92 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
-  
+  "posts": [
+    {
+      "id": 1,
+      "name": "Роза",
+      "img": "imgs/landysh.jpeg",
+      "views": 20,
+      "bestseller": true,
+      "price": 1000,
+      "sale": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Тюльпан",
+      "img": "imgs/tulp.jpg",
+      "views": 25,
+      "bestseller": false,
+      "price": 2000,
+      "sale": 15,
+      "categoryId": 1
+    },
+    {
+      "name": "роза",
+      "price": "2000",
+      "sale": "50",
+      "categoryId": 2,
+      "bestseller": true,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "Одуванчик",
+      "img": "imgs/oduvan.jpg",
+      "views": 200,
+      "bestseller": false,
+      "price": 1800,
+      "sale": 0,
+      "categoryId": 3
+    },
+    {
+      "id": 7,
+      "name": "Ромашка",
+      "img": "imgs/romashka.jpg",
+      "views": 120,
+      "bestseller": true,
+      "price": 3000,
+      "sale": 30,
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "name": "Ландыш",
+      "img": "imgs/landysh.jpeg",
+      "views": 2,
+      "bestseller": false,
+      "price": 5000,
+      "sale": 20,
+      "categoryId": 2
+    },
+    {
+      "id": 5,
+      "name": "Пион",
+      "img": "imgs/pion.jpg",
+      "views": 28,
+      "bestseller": true,
+      "price": 2000,
+      "sale": 50,
+      "categoryId": 2
+    },
+    {
+      "id": 6,
+      "name": "Одуванчик",
+      "img": "imgs/oduvan.jpg",
+      "views": 200,
+      "bestseller": false,
+      "price": 1800,
+      "sale": 0,
+      "categoryId": 3
+    },
+    {
+      "id": 7,
+      "name": "Ромашка",
+      "img": "imgs/romashka.jpg",
+      "views": 120,
+      "bestseller": true,
+      "price": 3000,
+      "sale": 30,
+      "categoryId": 1
+    }
+  ]
+}

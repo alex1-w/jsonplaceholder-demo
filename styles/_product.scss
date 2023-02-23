@@ -1,0 +1,42 @@
+// body {
+//     overflow-y: hidden;
+// }
+
+.product-block {
+    max-width: 90vw;
+    height: 100vh;
+    border: 1px solid red;
+    padding: 1%;
+
+    &__wrapper {
+        max-width: 80vw;
+        // max-height: ;
+        border: 1px solid red;
+    }
+
+    &__main-block {}
+
+    &__image {
+        & img {
+            max-width: 50%;
+            box-shadow: 0 0 3px 4px rgba(137, 137, 137, 0.845);
+            border-radius: 10px;
+        }
+    }
+
+    &__description {
+        &_content {}
+    }
+
+    &__title {}
+
+    &__price {}
+
+    &__sale {}
+
+    &__views {}
+
+    &__edition {}
+
+    &__footer {}
+}
